@@ -1,0 +1,42 @@
+.Weather {
+  font-family: "Roboto", sans-serif;
+  background-color: #d5eeff;
+}
+
+.Weather .weather-temp img {
+  margin-right: 5px;
+  height: 40px;
+  float: left;
+  vertical-align: top;
+  width: 60px;
+}
+
+.Weather .weather-temp {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.Weather .weather-temp .temp-units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
+}
+
+.Weather .weather-temp .active {
+  color: black;
+  cursor: default;
+}
+
+.Weather .weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.Weather .forecast-date {
+  font-size: 13px;
+}
+.Weather .forecast-temp-min {
+  opacity: 0.4;
+}
